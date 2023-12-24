@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SignUp Form</title>
+    <style></style>
+  </head>
+  <body>
+    <nav>
+      <a href="./practice/index4.html" target="_self">Back to home page</a>
+    </nav>
+    <header>
+      <h1>SignUp Form</h1>
+    </header>
+    <main>
+      <p>fill in your detail</p>
+      <section class="form">
+        <form action="/practice/" method="post">
+        <p>
+          <label for="firstName">First name <input placeholder="eg Favour" type="text" name="firstName" id="fname" value="" required /></label>
+        </p>
+        <p>
+            <label for="lastName">Last Name</label>
+            <input type="text" required placeholder="eg Mfon" name="lastName" value="" id="lname">
+        </p>
+        <p>
+            <label for="dob">Date of Birth</label>
+            <input type="date" name="dateOfBirth" id="dob" value="" required>
+        </p>
+        <p>
+          <label for="gender">gender</label>
+         <select name="gender" id="gender" required>
+            <option value="gender" disabled selected>gender</option>
+            <option value="male">male</option>
+            <option value="female">female</option>
+        </select>
+        </p>
+        <p>
+            <label for="education">Education level</label>
+            <select name="education-level" id="el" required>
+                <option value="education level" selected disabled>education level</option>
+                <option value="ssce">ssce</option>
+                <option value="fslc">fslc</option>
+                <option value="B.sc">B.sc</option>
+                <option value="M.sc">M.sc</option>
+            </select>
+        </p>
+        <p>
+            <label for="city">State/city of residence</label>
+            <input placeholder="eg Uyo, Eket, Onna,etc" type="text" name="stateOfResidence" value="" id="SOR" required>
+        </p>
+        <p>
+            <label for="phone">Phone number</label>
+            <input type="tel" name="phone" id="phone" value="" required placeholder="0123456789">
+        </p>
+        <p>
+            <label for="email">Email Address</label>
+            <input type="email" required placeholder="example@gmail.com">
+        </p>
+        <p>
+            <label>Country</label>
+            <input type="text" required>
+        </p>
+        <p>
+            <label for="employment status">Employment Status</label>
+            <select name="" id="" required>
+                <option value="" disabled selected>Employment status</option>
+                <option value="">unemployed</option>
+                <option value="">self-employed</option>
+                <option value="">employed</option>
+                <option value="">student</option>
+            </select>
+        </p>
+        <p>
+            <label for="">choose school</label>
+            <select name="" id="" required>
+                <option value="" selected disabled>choose school</option>
+                <option value="">school of engineering</option>
+                <option value="">school of product</option>
+                <option value="">school of data</option>
+                <option value="">school of business</option>
+            </select>
+        </p>
+        <p>
+            <label for="">choose course of study</label>
+            <select name="" id="">
+                <option value="" disabled selected>choose course of study</option>
+                <option>data analysis</option>
+                <option>data science</option>
+                <option>back-end engineering</option>
+                <option>front-end engineering</option>
+            </select>
+            <p>
+                By clicking on continue, i agree to <em>Terms of Use</em> and acknowledge that i have read the <em>Privacy policy.</em>
+            </p>
+        </p>
+        <button>Proceed</button>
+        </form>
+      </section>     
+    </main>
+  </body>
+</html>
